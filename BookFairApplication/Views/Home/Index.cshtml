@@ -1,0 +1,23 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div>
+    <h1 style="background-color: blueviolet; text-align : center; font-family : 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Welcome to Book Fair</h1>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <h2>PAST EVENTS</h2>
+        @{
+            Html.RenderAction("PastEvent", "Event");
+        }
+    </div>
+    <div class="col-md-6">
+        <h2>UPCOMING EVENTS</h2>
+        @{
+            Html.RenderAction("FutureEvent", "Event");
+        }
+    </div>
+</div>
+

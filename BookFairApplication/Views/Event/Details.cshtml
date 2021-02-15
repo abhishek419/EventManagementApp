@@ -1,0 +1,135 @@
+﻿@model BusinessObjects.Model.EventsDBO
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+
+        <dd>
+            @Html.DisplayFor(model => model.UserID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TitleOfTheBook)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TitleOfTheBook)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EventDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EventDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Location)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Location)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TypeOfEvent)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TypeOfEvent)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.StartTime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StartTime)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Duration)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Duration)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AddPeople)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AddPeople)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+
+        @{
+            if (Model.OtherDetails != null)
+            {
+                <dt>
+                    @Html.DisplayNameFor(model => model.OtherDetails)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.OtherDetails)
+                </dd>
+            }
+        }
+
+        <dt>
+            Total Invited
+        </dt>
+
+        <dd>
+            @{
+                int inviteCount = 0;
+                if (Model.AddPeople != null)
+                {
+                    string[] a = Model.AddPeople.Split(',');
+                    inviteCount = a.Length;
+                }
+            }
+            @inviteCount
+        </dd>
+
+    </dl>
+</div>
+
+<hr />
+@{
+    if (User.Identity.IsAuthenticated)
+    {
+        Html.RenderAction("Create", "Comment");
+        Html.RenderAction("Show", "Comment");
+    }
+    else
+    {
+        <h4>Comments...</h4>
+        Html.RenderAction("Show", "Comment");
+    }
+}
+

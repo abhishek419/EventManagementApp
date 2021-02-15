@@ -1,0 +1,15 @@
+C:\Users\abhishekkumar08\source\repos\BookFairApplication\DataAcess\obj\Debug\DataAcess.csproj.CoreCompileInputs.cache
+C:\Users\abhishekkumar08\source\repos\BookFairApplication\DataAcess\bin\Debug\DataAcess.dll.config
+C:\Users\abhishekkumar08\source\repos\BookFairApplication\DataAcess\bin\Debug\DataAcess.dll
+C:\Users\abhishekkumar08\source\repos\BookFairApplication\DataAcess\bin\Debug\DataAcess.pdb
+C:\Users\abhishekkumar08\source\repos\BookFairApplication\DataAcess\bin\Debug\BusinessObjects.dll
+C:\Users\abhishekkumar08\source\repos\BookFairApplication\DataAcess\bin\Debug\EntityFramework.dll
+C:\Users\abhishekkumar08\source\repos\BookFairApplication\DataAcess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\abhishekkumar08\source\repos\BookFairApplication\DataAcess\bin\Debug\BusinessObjects.pdb
+C:\Users\abhishekkumar08\source\repos\BookFairApplication\DataAcess\bin\Debug\BusinessObjects.dll.config
+C:\Users\abhishekkumar08\source\repos\BookFairApplication\DataAcess\bin\Debug\EntityFramework.xml
+C:\Users\abhishekkumar08\source\repos\BookFairApplication\DataAcess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\abhishekkumar08\source\repos\BookFairApplication\DataAcess\obj\Debug\DataAcess.csprojAssemblyReference.cache
+C:\Users\abhishekkumar08\source\repos\BookFairApplication\DataAcess\obj\Debug\DataAcess.csproj.CopyComplete
+C:\Users\abhishekkumar08\source\repos\BookFairApplication\DataAcess\obj\Debug\DataAcess.dll
+C:\Users\abhishekkumar08\source\repos\BookFairApplication\DataAcess\obj\Debug\DataAcess.pdb

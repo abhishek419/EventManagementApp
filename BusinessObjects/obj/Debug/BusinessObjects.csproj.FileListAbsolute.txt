@@ -1,0 +1,12 @@
+C:\Users\abhishekkumar08\source\repos\BookFairApplication\BusinessObjects\obj\Debug\BusinessObjects.csprojAssemblyReference.cache
+C:\Users\abhishekkumar08\source\repos\BookFairApplication\BusinessObjects\obj\Debug\BusinessObjects.csproj.CoreCompileInputs.cache
+C:\Users\abhishekkumar08\source\repos\BookFairApplication\BusinessObjects\bin\Debug\BusinessObjects.dll.config
+C:\Users\abhishekkumar08\source\repos\BookFairApplication\BusinessObjects\bin\Debug\BusinessObjects.dll
+C:\Users\abhishekkumar08\source\repos\BookFairApplication\BusinessObjects\bin\Debug\BusinessObjects.pdb
+C:\Users\abhishekkumar08\source\repos\BookFairApplication\BusinessObjects\bin\Debug\EntityFramework.dll
+C:\Users\abhishekkumar08\source\repos\BookFairApplication\BusinessObjects\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\abhishekkumar08\source\repos\BookFairApplication\BusinessObjects\bin\Debug\EntityFramework.xml
+C:\Users\abhishekkumar08\source\repos\BookFairApplication\BusinessObjects\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\abhishekkumar08\source\repos\BookFairApplication\BusinessObjects\obj\Debug\BusinessObjects.csproj.CopyComplete
+C:\Users\abhishekkumar08\source\repos\BookFairApplication\BusinessObjects\obj\Debug\BusinessObjects.dll
+C:\Users\abhishekkumar08\source\repos\BookFairApplication\BusinessObjects\obj\Debug\BusinessObjects.pdb

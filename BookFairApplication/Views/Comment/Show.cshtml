@@ -1,0 +1,21 @@
+﻿@model dynamic
+
+@{
+    Layout = null;
+}
+
+@if (Model != null)
+{
+    foreach (var item in Model.CommentViewModel)
+    {
+
+        <div class="avatar">
+            <strong>@item.UserName - </strong> <span class="pubdate"><strong>posted @item.Date.ToString("dd-MM-yyyy")</strong> </span>
+            <p class="text-info" style="background-color:lightgrey" ;"font-family:"Lucida Console","Courier New",monospace;">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@item.Comments
+            </p>
+        </div>
+        <hr style="width:50%;text-align:left;margin-left:0">
+
+    }
+}

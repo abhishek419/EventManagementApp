@@ -1,0 +1,33 @@
+﻿@model dynamic
+
+
+@{
+    ViewBag.Title = "Details";
+    Layout = null;
+}
+
+<div class="col-md-6">
+    <table class="table table-hover" cellspacing="1" cellpadding="1" style="border:hidden">
+        <tr>
+            <th style="background-color:cadetblue">Title</th>
+            <th style="background-color:cadetblue"> Action</th>
+        </tr>
+        @if (Model != null)
+        {
+            foreach (var item in Model.EventsDBO)
+            {
+                <tr>
+                    <td>
+                        @item.Title
+                    </td>
+                    <td>
+                        @Html.ActionLink("Details", "Details", new { id = item.EventId })
+
+                    </td>
+                </tr>
+            }
+
+        }
+
+    </table>
+</div>
